@@ -1,0 +1,25 @@
+.container-keys{margin: 0.5em;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 20px;
+
+    .drum-pad{
+        p{
+            display: block;
+            padding: .5rem;
+            text-align: center;
+            font-size:2rem;
+            color: aliceblue;
+            border: 1px solid #f7f3f3;
+            background: rgba(0, 0, 0, 0.5);
+            box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.342);
+            border-radius: .5rem;
+            transition: all .05s ease;
+        }
+        .active-key{
+            transform: scale(1.05);
+            border-color: #f7f3f3;
+            box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5)
+        }
+    }
+}
