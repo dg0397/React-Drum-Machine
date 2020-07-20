@@ -12,23 +12,20 @@ function App(){
 
   useEffect( () => {
     const display = document.getElementById('display');
-    display.innerText = onApp === false ? '' : valueDisplay;
+    display.innerText = !onApp ? '' : valueDisplay;
   },[valueDisplay, onApp])
 
 
-  const handleClick = e => {
+  const handleClick = (audio,element,description) => {
     if(!onApp)return;
 
-    const id = e.target.innerText
-    const audio = document.querySelector(`audio#${id}`);
-    const description = e.target.parentNode.id;
-        
+    
     audio.currentTime = 0;
     audio.volume = valueRange;
     audio.play();
 
 
-    e.target.classList.add('active-key');
+    element.classList.add('active-key');
 
     setValueDisplay(description);
     
@@ -89,7 +86,7 @@ function App(){
     valueRange = {valueRange}
     handleClickUp = {handleClickUp}
     handleKeyPress = {handleKey}
-     />
+    />
   );
 }
 

@@ -18,17 +18,21 @@
     font-weight: 400;
     color:aliceblue;
     font-family: $font;
+    background: none;
     background-color: none;
-    background-color: hsl(0, 85%, 36%);
+    background-color: rgb(170, 14, 14) !important;
     border:none;
     box-shadow: none;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.542);
     border-radius:1rem;
     transition: all .9s ease;
     cursor: pointer;
+    &:focus{
+      outline: none;
+  }
 }
 .active{
-    background-color: rgba(0, 0, 0, 0.76);
+    background-color: rgba(0, 0, 0, 0.76) !important;
 }
 
 #display{
@@ -83,13 +87,13 @@ input[type=range] {
   }
   
   input[type=range]::-webkit-slider-thumb {
-    height: 15px;
-    width: 15px;
+    height: 25px;
+    width: 25px;
     border-radius: 50px;
     background: #f7f3f3;
     cursor: pointer;
     -webkit-appearance: none;
-    margin-top: -3.5px;
+    margin-top: -8px;
     box-shadow:0 0 2px rgba(0,0,0,0.2);
   }
   
