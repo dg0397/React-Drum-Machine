@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/React-Drum-Machine/static/css/main.41e67232.chunk.css",
-    "main.js": "/React-Drum-Machine/static/js/main.764e0802.chunk.js",
-    "main.js.map": "/React-Drum-Machine/static/js/main.764e0802.chunk.js.map",
+    "main.css": "/React-Drum-Machine/static/css/main.839c2802.chunk.css",
+    "main.js": "/React-Drum-Machine/static/js/main.b161b639.chunk.js",
+    "main.js.map": "/React-Drum-Machine/static/js/main.b161b639.chunk.js.map",
     "runtime-main.js": "/React-Drum-Machine/static/js/runtime-main.2c0d580f.js",
     "runtime-main.js.map": "/React-Drum-Machine/static/js/runtime-main.2c0d580f.js.map",
     "static/js/2.e0b2333e.chunk.js": "/React-Drum-Machine/static/js/2.e0b2333e.chunk.js",
     "static/js/2.e0b2333e.chunk.js.map": "/React-Drum-Machine/static/js/2.e0b2333e.chunk.js.map",
     "index.html": "/React-Drum-Machine/index.html",
-    "precache-manifest.2274694f9339631ccaefff09d0b7616a.js": "/React-Drum-Machine/precache-manifest.2274694f9339631ccaefff09d0b7616a.js",
+    "precache-manifest.0a2b583dc71699ffd9b48c3248117696.js": "/React-Drum-Machine/precache-manifest.0a2b583dc71699ffd9b48c3248117696.js",
     "service-worker.js": "/React-Drum-Machine/service-worker.js",
-    "static/css/main.41e67232.chunk.css.map": "/React-Drum-Machine/static/css/main.41e67232.chunk.css.map",
+    "static/css/main.839c2802.chunk.css.map": "/React-Drum-Machine/static/css/main.839c2802.chunk.css.map",
     "static/js/2.e0b2333e.chunk.js.LICENSE.txt": "/React-Drum-Machine/static/js/2.e0b2333e.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.2c0d580f.js",
     "static/js/2.e0b2333e.chunk.js",
-    "static/css/main.41e67232.chunk.css",
-    "static/js/main.764e0802.chunk.js"
+    "static/css/main.839c2802.chunk.css",
+    "static/js/main.b161b639.chunk.js"
   ]
 }
